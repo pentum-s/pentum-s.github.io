@@ -26,6 +26,7 @@ body{
 
 nav {
     position: fixed;
+    font-size: 1.2rem;
     top: 0;
     left: 50%;
     transform: translateX(-50%);
@@ -288,7 +289,7 @@ footer .column > a:hover{
 }
 
 @media (width < 900px){
-    .nav-links{
+    nav {
         display: none;
     }
     header{
@@ -297,12 +298,10 @@ footer .column > a:hover{
     header .image{
         grid-area: 1/1/2/2;
     }
-    .features{
+    .projects{
         grid-template-columns: repeat(2, 1fr);
     }
-    .pricing{
-        grid-template-columns: repeat(2, 1fr);
-    }
+    
     footer{
         grid-template-columns: 1fr 200px;
     }
@@ -313,11 +312,7 @@ footer .column > a:hover{
         display: none;
     }
 
-    .features{
-        grid-template-columns: repeat(1, 1fr);
-    }
-
-    .pricing{
+    .projects{
         grid-template-columns: repeat(1, 1fr);
     }
 
