@@ -156,13 +156,6 @@ section .header{
     font-weight: 600;
 }
 
-.projects {
-    margin-top: 4rem;
-    display: grid;
-    grid-template-columns: repeat(4, 1fr);
-    gap: 2rem;
-}
-
 .projects .card {
     position: relative;
     padding: 12rem 2rem;
@@ -172,7 +165,6 @@ section .header{
     transition: all 0.3s ease;
     cursor: pointer;
 }
-
 
 .projects .card::before {
     content: '';
@@ -199,7 +191,6 @@ section .header{
 #card4::before {
     background-image: url('./imgs/interrogacion.webp');
 }
-
 
 .projects .card:hover::before {
     filter: blur(5px);
@@ -232,6 +223,7 @@ section .header{
     font-size: 12px;
     margin-left: 1rem;
 }
+
 
 #contacto img{
     width: 5%;
@@ -295,16 +287,19 @@ footer a:hover{
     nav {
         display: none;
     }
+
     header{
         grid-template-columns: repeat(1, 1fr);
     }
+
     header .image{
         grid-area: 1/1/2/2;
     }
+
     .projects{
         grid-template-columns: repeat(2, 1fr);
     }
-    
+
     footer{
         grid-template-columns: 1fr 200px;
     }
@@ -317,23 +312,6 @@ footer a:hover{
 
     .projects{
         grid-template-columns: repeat(1, 1fr);
-    }
-
-    .projects .card {
-        position: sticky;
-        top: 20vh;
-    }
-
-    .projects .card:focus-within::before {
-        filter: blur(5px);
-    }
-
-    .projects .card:focus-within .contenido {
-        opacity: 1;
-    }
-
-    .projects .card:hover .contenido {
-        opacity: 1;
     }
 
     footer{
