@@ -156,6 +156,13 @@ section .header{
     font-weight: 600;
 }
 
+.projects {
+    margin-top: 4rem;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 2rem;
+}
+
 .projects .card {
     position: relative;
     padding: 12rem 2rem;
@@ -165,6 +172,7 @@ section .header{
     transition: all 0.3s ease;
     cursor: pointer;
 }
+
 
 .projects .card::before {
     content: '';
@@ -191,6 +199,7 @@ section .header{
 #card4::before {
     background-image: url('./imgs/interrogacion.webp');
 }
+
 
 .projects .card:hover::before {
     filter: blur(5px);
