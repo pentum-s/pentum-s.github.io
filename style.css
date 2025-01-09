@@ -319,6 +319,23 @@ footer a:hover{
         grid-template-columns: repeat(1, 1fr);
     }
 
+    .projects .card {
+        position: sticky;
+        top: 20vh;
+    }
+
+    .projects .card:focus-within::before {
+        filter: blur(5px);
+    }
+
+    .projects .card:focus-within .contenido {
+        opacity: 1;
+    }
+
+    .projects .card:hover .contenido {
+        opacity: 1;
+    }
+
     footer{
         grid-template-columns: 1fr 150px;
     }
