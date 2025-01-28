@@ -31,7 +31,6 @@ html {
     margin: 0px 10px;
 }
 
-
 .image img{
     width: 65%;
     display: flex;
@@ -313,7 +312,11 @@ footer a:hover{
     }
 
     footer{
-        grid-template-columns: 1fr 200px;
+        display: block;
+    }
+
+    footer .column {
+        margin-top: 10px;
     }
 }
 
@@ -339,6 +342,10 @@ footer a:hover{
     }
 
     footer{
-        grid-template-columns: 1fr 150px;
+        display: block;
+    }
+
+    footer .column {
+        margin-top: 10px;
     }
 }
