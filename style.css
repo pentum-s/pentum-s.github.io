@@ -12,23 +12,13 @@ html {
     box-sizing: border-box;
 }
 
-#skills button {
-    background-color: rgba(140, 140, 248, 0.7);
-    display: flex;
-    color: white;
-    padding: 10px 20px;
-    border: none;
-    border-radius: 5px;
-    font-size: 16px;
-    cursor: pointer;
-    transition: background-color 0.3s ease;
-}
 
-button:hover {
+#button:hover {
     box-shadow: 0 0 10px rgb(255, 255, 255);
 }
 
-#contacto button {
+#button {
+    text-decoration: none;
     background-color: rgba(140, 140, 248, 0.7);
     color: white;
     padding: 10px 20px;
@@ -40,6 +30,7 @@ button:hover {
     padding: 10px 20px;
     margin: 0px 10px;
 }
+
 
 .image img{
     width: 65%;
@@ -313,11 +304,11 @@ footer a:hover{
         width: 50px;
     }
 
-    #contacto button{
+    #contacto #button{
         margin: 2px;
     }
 
-    #skills button {
+    #skills #button {
         margin-top: 15px;
     }
 
@@ -339,11 +330,11 @@ footer a:hover{
         width: 50px;
     }
 
-    #contacto button{
+    #contacto #button{
         margin: 2px;
     }
 
-    #skills button {
+    #skills #button {
         margin-top: 15px;
     }
 
