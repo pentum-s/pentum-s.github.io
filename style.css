@@ -21,13 +21,12 @@ html {
     text-decoration: none;
     background-color: rgba(140, 140, 248, 0.7);
     color: white;
-    padding: 10px 20px;
+    padding: 10px 30px;
     border: none;
     border-radius: 5px;
     font-size: 16px;
     cursor: pointer;
     transition: background-color 0.3s ease;
-    padding: 10px 20px;
     margin: 0px 10px;
 }
 
@@ -175,7 +174,7 @@ section .header{
 }
 
 #card1::before {
-    background-image: url('./imgs/salud_mental.webp');
+    background-image: url('./imgs/interrogacion.webp');
 }
 
 #card2::before {
